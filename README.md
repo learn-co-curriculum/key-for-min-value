@@ -6,5 +6,5 @@ type: TODO
 
 # Key For Min Value
 
-Complete spec.rb and build a method that finds the key in a hash whose value is the lowest.
+Complete spec/key_for_min_spec.rb and build a method that finds the key in a hash whose value is the lowest.
 
