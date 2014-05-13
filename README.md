@@ -2,7 +2,7 @@
 tags: hashes, iteration
 languages: ruby
 type: TODO
-  resources: 2
+resources: 2
 ---
 
 # Key For Min Value
