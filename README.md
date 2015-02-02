@@ -33,5 +33,6 @@ Since some Ruby methods will help you find the solution very easily, the followi
 * `#values`
 * `#min`
 * `#sort`
+* `#min_by`
 
-Run your testing suite to get started!
+We want you to build this out on your own so if a method seems like a shortcut, it probably is. Run your testing suite to get started!
