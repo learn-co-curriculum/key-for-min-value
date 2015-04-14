@@ -5,7 +5,7 @@ type: TODO
 resources: 1
 ---
 
-# Key For Min Value
+# Key For Min Values
 
 ## Objective
 
