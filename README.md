@@ -90,7 +90,6 @@ key_for_min_value(veggies)
 
 **A Few Restrictions:**
 We want you to build this on your own. Some of the following methods are helpful but off limits for this exercise. We're going to learn more about them in the next lesson: 
-since some Ruby methods will help you find the solution very easily, the following methods are forbidden:
 
 * `#keys`
 * `#values`
