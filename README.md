@@ -5,7 +5,7 @@
 1. Understand how to iterate over hashes
 2. Practice iterating over hashes
 
-In this lesson, we'll be learning how to use lower level interators like `.each` on a hash. Then, you'll complete the lab challenge. In the next lesson, we'll be introduced to some higher level hash methods. 
+In this lesson, we'll be learning how to use lower level iterators like `.each` on a hash. Then, you'll complete the lab challenge. In the next lesson, we'll be introduced to some higher level hash methods. 
 
 ## Iterating Over Hashes
 
@@ -23,7 +23,7 @@ end
 
 When we iterate over a hash, the `.each` method yields the key/value pair *together* to the block. Inside that block, you have access to the key and the value and can manipulate them. 
 
-Drop into IRB and copy and pase the above code. You should see this output: 
+Drop into IRB and copy and paste the above code. You should see this output: 
 
 ```ruby
 key1, value1
@@ -42,7 +42,7 @@ The good news is you're on a cruise ship! The bad news is that you're not on vac
 ```ruby
 passengers = {
 suite_a: "Amanda Presley", 
-suite_b: "Seymore Hoffman", 
+suite_b: "Seymour Hoffman", 
 suite_c: "Alfred Tennyson", 
 suite_d: "Charlie Chaplin", 
 suite_e: "Crumpet the Elf"
@@ -63,7 +63,7 @@ winner
 ```
 Let's break this down: 
 
-* We iterate through the hash using `.each`. We chose `.each` instead of collect becuase we don't want to collect the key/value pair that contains the winner, just the *name* of the winner. With `.each`, we have the control we need to simple grab the winner's name and set it equal to a variable that we can return later on. 
+* We iterate through the hash using `.each`. We chose `.each` instead of collect because we don't want to collect the key/value pair that contains the winner, just the *name* of the winner. With `.each`, we have the control we need to simple grab the winner's name and set it equal to a variable that we can return later on. 
 * Inside our iteration, we use an `if` statement combined with the `&&` boolean operator to check if we have the right suite and if the person in that suite has a name that begins with "A". 
 * If that condition returns true, we've found our winner! We set their name equal to the `winner` variable and end our iteration. 
 * Then, we call on our `winner` variable to return the name of the lucky winner. 
@@ -90,7 +90,7 @@ key_for_min_value(veggies)
 
 **A Few Restrictions:**
 We want you to build this on your own. Some of the following methods are helpful but off limits for this exercise. We're going to learn more about them in the next lesson: 
-ince some Ruby methods will help you find the solution very easily, the following methods are forbidden:
+since some Ruby methods will help you find the solution very easily, the following methods are forbidden:
 
 * `#keys`
 * `#values`
