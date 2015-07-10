@@ -1,15 +1,19 @@
-# Key For Minimum Value
+---
+tags: hashes, iteration
+languages: ruby
+type: TODO
+resources: 1
+---
 
-## Objectives
+# Key For Min Value
 
-Practice iterating over a hash
+## Objective
 
-## Instructions 
+Build a method that finds the key in a hash whose value is the lowest.
 
-1. Fork and clone this lab
-2. Build a method `key_for_min_value` that accepts an argument of a hash. This method should iterate over the hash and return the *key* (not the value!) that points to the smallest value of the set. If the method is called and passed an argument of an empty hash, it should return `nil`. 
+## Examples
 
-Here are some examples: 
+Here are some examples of ideal behavior:
 
 ```ruby
 ikea = {:chair => 25, :table => 85, :mattress => 450}
@@ -21,8 +25,9 @@ key_for_min_value(veggies)
 # => "apple"
 ```
 
-**A Few Restrictions:**
-We want you to build this on your own. Some of the following methods are helpful but off limits for this exercise. We're going to learn more about them in the next lesson: 
+## Instructions
+
+Since some Ruby methods will help you find the solution very easily, the following methods are forbidden:
 
 * `#keys`
 * `#values`
@@ -30,7 +35,4 @@ We want you to build this on your own. Some of the following methods are helpful
 * `#sort`
 * `#min_by`
 
-**A Helpful Hint:** 
-
-* Think about how to determine which value is the lowest. Do you need to compare each value to something as you iterate? 
-* Think about how to collect/store the correct key. Remember that you need your method to return *just this key*. 
+We want you to build this out on your own so if a method seems like a shortcut, it probably is. Run your testing suite to get started!
