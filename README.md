@@ -2,7 +2,7 @@
 
 ## Objectives
 
-Practice iterating over a hash
+1. Practice iterating over a hash.
 
 ## Instructions 
 
@@ -22,7 +22,7 @@ key_for_min_value(veggies)
 ```
 
 **A Few Restrictions:**
-We want you to build this on your own. Some of the following methods are helpful but off limits for this exercise. We're going to learn more about them in the next lesson: 
+We want you to build this on your own. Some of the following methods are helpful but ***off limits*** for this exercise. We're going to learn more about them in the next lesson: 
 
 * `#keys`
 * `#values`
@@ -33,4 +33,4 @@ We want you to build this on your own. Some of the following methods are helpful
 **A Helpful Hint:** 
 
 * Think about how to determine which value is the lowest. Do you need to compare each value to something as you iterate? 
-* Think about how to collect/store the correct key. Remember that you need your method to return *just this key*. 
+* Think about how to collect or store the correct key. Remember that you need your method to return *just this key*. 
