@@ -22,7 +22,7 @@ key_for_min_value(veggies)
 ```
 
 **A Few Restrictions:**
-We want you to build this on your own. Some of the following methods are helpful but ***off limits*** for this exercise. We're going to learn more about them in subsequent lessons: 
+We want you to build this on your own. Some of the following methods are helpful but ***off limits*** for this exercise. (We'll cover a few below in more depth in subsequent lessons). 
 
 * `#keys`
 * `#values`
