@@ -28,6 +28,7 @@ We want you to build this on your own. Some of the following methods are helpful
 * `#values`
 * `#min`
 * `#sort`
+* `#sort_by`
 * `#min_by`
 
 **A Helpful Hint:** 
