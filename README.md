@@ -37,4 +37,4 @@ We want you to build this on your own. Some of the following methods are helpful
 * Think about how to determine which value is the lowest. Do you need to compare each value to something as you iterate? 
 * Think about how to collect or store the correct key. Remember that you need your method to return *just this key*. 
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/key-for-min-value' title='Key For Minimum Value'>Key For Minimum Value</a> on Learn.co and start learning to code for free.</p>
+
